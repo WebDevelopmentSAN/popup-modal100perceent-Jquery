@@ -27,11 +27,11 @@ display: flex;
   }
   
   .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
+   background-color: #fefefe;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    max-width: 80%;
+    box-sizing: border-box;
   }
   
   .close {
